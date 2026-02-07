@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="8)P#7yRxyxGH2eZ4@=bi">Player</variable><variable type="KIND_SpriteKind" id="x9zmWhY=|DII*Nu_?gfn">Projectile</variable><variable type="KIND_SpriteKind" id="M(hDG^djaj.AC}IS=sR2">Food</variable><variable type="KIND_SpriteKind" id="kds|o007IG9RdOctUy}e">Enemy</variable><variable id="Q]c=XyeCD.2Z,W=gGa@K">mySprite</variable></variables><block type="pxt-on-start" id="pH}4cI{HdI%x7sUu#m]z" x="39" y="63"><statement name="HANDLER"><block type="music_playable_play" id="dx,,_wssEcz_TImG/F|["><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_song_field_editor" id="Qv5l6?n,2#[gz!Z@l@Km"><field name="song">assets.song`retro`</field><data>{"commentRefs":[],"fieldData":{"song":"mySongs.song1"}}</data></shadow></value></block></statement></block><block type="forever" id="F2gUrx]jL`2EIiPkELGc" x="49" y="258"><statement name="HANDLER"><block type="game_control_sprite" id="T=hr|G),Dx.=(OQoL6*w"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="spritescreatenoset" id="-zw/%=LAn8#a)V~ZXJG,"><value name="img"><shadow type="screen_image_picker" id="9,l2^s*kxhnKkJE9lVc5"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 2 . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="h2X_-;7F@.55D0~}H}28"><field name="MEMBER">Player</field></shadow></value></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="kGIlG#}`o7g}BH@ov]=M"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="hMN/glfL/zs~dK]ax@VA"><field name="speed">100</field></shadow></value><next><block type="game_setgameoverplayable" id="5sSR@XylI:jnc:87#-pB"><value name="sound"><shadow type="music_melody_playable" id="LW-TqlrMG99sVEbxt3#y"><field name="melody">music.powerUp</field></shadow><block type="music_melody_playable" id="{k0t8u}Q{mI][}5M40XE"><field name="melody">music.powerUp</field></block></value><value name="looping"><shadow type="toggleOnOff" id="VM*+4NGOh!vAsd:Q#lF1"><field name="on">true</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="VMUrotIT?++jvIC2tlf%"><field name="win">true</field></shadow></value></block></next></block></statement></block></xml>
